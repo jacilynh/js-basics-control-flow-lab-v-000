@@ -12,5 +12,6 @@ function scuberGreetingForFeet(distance) {
   else {
     result = 'Five bucks'
   }
+  
   result
 }
