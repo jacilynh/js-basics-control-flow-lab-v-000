@@ -8,7 +8,16 @@
 //     it('does not allow rides over 2500 feet', function () {
 //       expect(scuberGreetingForFeet(2501)).to.equal('No can do.');
 
-scuberGreetingForFeet()
+function scuberGreetingForFeet(distance) {
+  let result
+  if (distance <= 400) {
+    result = 'This one is on me!';
+  }
+  else if (distance > 2000) {
+    result = 'I will gladly take your thirty bucks.';
+  }
+  if 
+}
 
 //   describe(''ternaryCheckCity(), function () {
 //     it('returns "Ok, sounds good." when the city is NYC', function () {
@@ -16,7 +25,9 @@ scuberGreetingForFeet()
 
 //     it('should return "No go." if the destination city is not NYC', function () {
 //       expect(ternaryCheckCity('Pittsburgh')).to.equal('No go.');
-ternaryCheckCity()
+function ternaryCheckCity() {
+  
+}
 
 //   describe('switchOnCharmFromTip()', function () {
 //     it('should return "Thank you so much." if the tip is generous', function () {
@@ -28,4 +39,6 @@ ternaryCheckCity()
 //     it('should return "Bye." if anything else', function () {
 //       expect(switchOnCharmFromTip('thanks for everything')).to.equal('Bye.');
 
-switchOnCharmFromTip()
+function switchOnCharmFromTip() {
+  
+}
