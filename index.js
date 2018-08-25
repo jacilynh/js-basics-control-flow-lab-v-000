@@ -5,5 +5,5 @@ function scuberGreetingForFeet(distance) {
     result = 'This one is on me!';
   }
   
-  result
+  return result
 }
