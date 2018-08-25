@@ -29,7 +29,7 @@ function ternaryCheckCity(destination) {
 
 function switchOnCharmFromTip(amount) {
   let result;
-  if (amount >= 10) {
+  if (amount >= 15) {
     result = 'Thank you so much.'
   }
   else if (amount < 5 && amount > 0) {
