@@ -1,6 +1,6 @@
 function scuberGreetingForFeet(distance) {
   let result
-  if (distance <= 400 || distance ) {
+  if (distance <= 400 ) {
     result = 'This one is on me!';
   }
   else if (distance > 2000) {
@@ -12,4 +12,5 @@ function scuberGreetingForFeet(distance) {
   else {
     result = 'Five bucks'
   }
+  result
 }
